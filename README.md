@@ -1,8 +1,6 @@
 # apollo-project
 
-## Build Setup
-
-### Details on the project
+## Details on the project
 
 The live version fo the site can be found using the following link:
 
@@ -35,6 +33,8 @@ $ yarn generate
 ```
 
 For detailed explanation on how things work, check out the [documentation](https://nuxtjs.org).
+
+## Build Setup
 
 ### Special Directories
 
