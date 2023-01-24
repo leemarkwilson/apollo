@@ -44,17 +44,6 @@ export default {
       type: String,
       required: true,
     }
-  },
-  data() {
-    return {
-
-    }
-  },
-  mounted() {
-
-  },
-  methods: {
-
   }
 }
 </script>

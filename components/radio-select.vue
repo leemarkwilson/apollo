@@ -47,14 +47,6 @@ export default {
       required: true,
     }
   },
-  data() {
-    return {
-
-    }
-  },
-  mounted() {
-
-  },
   methods: {
     select(target) {
       this.$emit('selectValue', target);
