@@ -17,6 +17,9 @@ I believe the table data could be improved as areas are not completely finished 
 
 I will update this will any more notes I have regarding the test.
 
+
+## Build Setup
+
 ```bash
 # install dependencies
 $ yarn install
@@ -31,10 +34,6 @@ $ yarn start
 # generate static project
 $ yarn generate
 ```
-
-For detailed explanation on how things work, check out the [documentation](https://nuxtjs.org).
-
-## Build Setup
 
 ### Special Directories
 
