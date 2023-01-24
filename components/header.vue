@@ -1,6 +1,6 @@
 <template>
   <div
-    class="bg-banner-black border-solid border-b border-banner-gray flex items-center px-2 py-2 h-14 sm:px-4"
+    class="bg-banner-black border-solid border-b border-banner-gray flex items-center px-2 py-2 h-14 md:px-4"
   >
     <img
       v-if="!pageData"

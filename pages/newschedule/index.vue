@@ -5,7 +5,7 @@
     />
 
     <section class="flex flex-row">
-      <div class="hidden sm:block bg-white w-64 h-auto md:h-screen border-r border-outline-gray">
+      <div class="hidden md:block bg-white w-64 h-auto lg:h-screen border-r border-outline-gray">
         <h2 class="w-auto leading-8 pt-8 mx-8 border-b border-outline-gray">New Schedule</h2>
 
         <nav>

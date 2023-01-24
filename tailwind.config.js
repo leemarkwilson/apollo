@@ -3,8 +3,8 @@ module.exports = {
   theme: {
     screens: {
       'xsm': '425px',
-      'sm': '768px',
-      'md': '1300px'
+      'md': '768px',
+      'lg': '1300px'
     },
     extend: {
       colors: {

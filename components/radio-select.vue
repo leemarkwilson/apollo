@@ -1,5 +1,5 @@
 <template>
-  <div class="border-solid border border-outline-gray overflow-auto rounded-lg mb-4 lg:mr-8">
+  <div class="border-solid border border-outline-gray overflow-auto rounded-lg mb-4">
     <h2 class="border-solid border-b border-outline-gray min-w-full bg-white divide-gray-200 text-base py-4 px-4 font-medium">
       {{title}}
     </h2>
