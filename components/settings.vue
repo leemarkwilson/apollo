@@ -1,14 +1,14 @@
 <template>
-  <section class="main-section w-full md:w-2/3 flex flex-col md:flex-row">
-    <div class="w-5/6 md:w-7/12 mx-auto">
-      <div class="h-36 xsm:h-32 md:h-24">
+  <section class="main-section w-full lg:w-2/3 flex flex-col lg:flex-row">
+    <div class="w-5/6 lg:w-7/12 mx-auto">
+      <div class="h-36 xsm:h-32 lg:h-24">
         <h2 class="text-lg text-left font-medium pt-8">Settings</h2>
 
         <p>Enter the Settings to complete the Schedule Setup in order to run the Schedule</p>
       </div>
       <section class="w-full">
         <div>
-          <div class="pb-4 lg:mr-8">
+          <div class="pb-4">
             <h2 class="border-solid border border-outline-gray rounded-t-lg min-w-full bg-white divide-gray-200 text-base py-4 px-4 font-medium">
               Name your Bid Optimization Schedule
             </h2>
@@ -54,20 +54,20 @@
             </div>
           </radioSelect>
 
-          <NuxtLink class="hidden md:block bg-button-blue float-right text-white rounded py-2 px-12 text-base hover:bg-blue-900" to="/">Publish</NuxtLink>
+          <NuxtLink class="hidden lg:block bg-button-blue float-right text-white rounded py-2 px-12 text-base hover:bg-blue-900" to="/">Publish</NuxtLink>
         </div>
       </section>
     </div>
 
     <div
       v-if="selectedTarget.length"
-      class="w-5/6 md:w-5/12 mx-auto"
+      class="w-5/6 lg:w-5/12 mx-auto"
     >
       <sub-statPanel
         :selectedTarget="selectedTarget"
       />
 
-      <NuxtLink class="block md:hidden bg-button-blue float-right text-white rounded py-2 px-12 text-base hover:bg-blue-900" to="/">Publish</NuxtLink>
+      <NuxtLink class="block lg:hidden bg-button-blue float-right text-white rounded py-2 px-12 text-base hover:bg-blue-900" to="/">Publish</NuxtLink>
     </div>
   </section>
 </template>
