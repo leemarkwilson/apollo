@@ -2,6 +2,23 @@
 
 ## Build Setup
 
+```Details on the project
+
+The live version fo the site can be found using the following link:
+
+https://leemarkwilson-github-7uzql34yv-leemarkwilson.vercel.app/
+
+There are areas of this project that I think could be improved but I'm overall very happy with the way it is currently.
+
+I have used Tailwind CSS throughout due to the request in the documentation to use UI tools such as tailwind.
+This is not something I have a lot of familiarity with, I would normally setup a number of scss files to style the individual components. This is a much quicker alternative though.
+
+I also have used both a locally store array for the JSON data for viewing the schedules table for view per page size of 10. 
+For view per page of 25 and 50 I have used a mock API using postman to render the data on the page. 
+I believe the table data could be improved as areas are not completely finished but I've provided an example of filtering through the ID in the above bar for the first 10 returned results. This can be easily extrapolated for all the returned results in the table and for the schedule names.
+
+I will update this will any more notes I have regarding the test.
+
 ```bash
 # install dependencies
 $ yarn install
