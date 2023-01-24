@@ -106,9 +106,6 @@ export default {
       ],
     }
   },
-  mounted() {
-
-  },
   methods: {
     changeSelectedTarget(input) {
       this.selectedTarget = input;

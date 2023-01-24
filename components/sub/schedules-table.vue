@@ -335,7 +335,6 @@ export default {
     ]),
     currentSchedules() {
       if (this.searchTerm) {
-        console.log('m');
         return this.scheduleIdSearch(this.searchTerm);
       } else {
         return this.newSchedules[this.currentPage - 1].data;
